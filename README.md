@@ -8,3 +8,11 @@ This project includes data from Kaggle (<a href="https://www.kaggle.com/datasets
   First, I normalised the table into three tables (Orders, Customers and Products) and created relationships: </br>
 <br>
   ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Relationships.png) </br>
+<br>
+I created the below front page: </br>
+<br>
+  ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Sales%20Overview%20Page.png) </br>
+<br>
+  With key metrics and filters at the top, as well as the company logo. This then breaks down to year, state and shows a treemap of the top 10 products by sale, all of which are responsive to filters. When hovering over states, it gives you a brief overview: </br>
+  
+  
