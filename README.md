@@ -6,4 +6,5 @@ This project includes data from Kaggle (<a href="https://www.kaggle.com/datasets
 <br></br><br></br>
 <br>
   First, I normalised the table into three tables (Orders, Customers and Products) and created relationships: </br>
-  
+<br>
+  ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Relationships.png) </br>
