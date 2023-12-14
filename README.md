@@ -17,7 +17,16 @@ I created the below front page: </br>
 <br>
   ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Sales%20Overview.gif) </br>
 <br>
-As I believe usability is the enemy of innovation, I created a navigation bar that pops out and allows the user to easily navigate to other pages, without it cluttering up report pages: </br>
+As I believe usability is the enemy of innovation, I created a navigation bar that pops out: </br>
 <br>
   ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Nav%20Bar.gif) </br>
-
+<br>
+  This allows the user to more easily navigate to the Target Overview page: </br>
+<br>
+  ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Target%20Overview.gif) </br>
+<br>
+  And the Time Overview Page </br>
+<br>
+  ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Time%20Overview.gif) </br>
+  
+  
