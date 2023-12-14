@@ -16,4 +16,7 @@ I created the below front page: </br>
   With key metrics and filters at the top, as well as the company logo. This then breaks down to year, state and shows a treemap of the top 10 products by sale, all of which are responsive to filters. When hovering over states, it gives you a brief overview: </br>
 <br>
   ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Sales%20Overview.gif) </br>
-  
+<br>
+As I believe usability is the enemy of innovation, I created a navigation bar that pops out and allows the user to easily navigate to other pages, without it cluttering up report pages: </br>
+
+
