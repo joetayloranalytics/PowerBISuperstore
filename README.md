@@ -18,5 +18,6 @@ I created the below front page: </br>
   ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Sales%20Overview.gif) </br>
 <br>
 As I believe usability is the enemy of innovation, I created a navigation bar that pops out and allows the user to easily navigate to other pages, without it cluttering up report pages: </br>
-
+<br>
+  ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Nav%20Bar.gif) </br>
 
