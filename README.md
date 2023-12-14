@@ -28,5 +28,6 @@ As I believe usability is the enemy of innovation, I created a navigation bar th
   And the Time Overview Page </br>
 <br>
   ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Time%20Overview.gif) </br>
-  
+<br>
+  ![](https://github.com/joetayloranalytics/PowerBISuperstore/blob/main/Measures) </br>
   
