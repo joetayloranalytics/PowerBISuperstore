@@ -1,0 +1,70 @@
+
+#Sales Related Measures
+Total Sales = DISTINCTCOUNT(Orders[Order ID])
+
+Total Sales (Last Year) = 
+CALCULATE(
+    [Total Sales],
+    DATEADD(
+        Orders[Order Date],
+        -1,
+        YEAR
+    )
+)
+
+Ranked Product Performers - Sales = 
+RANKX(
+    ALL(
+        Products[Product Name]
+    ),
+    [Total Sales]
+)
+
+#Revenue Related Measures
+Total Revenue = SUM(Orders[Sales])
+
+Total Revenue (Last Year) = 
+CALCULATE(
+    [Total Revenue],
+    DATEADD(
+        Orders[Order Date],
+        -1,
+        YEAR
+    )
+)
+
+YTD Revenue = CALCULATE([Total Revenue],DATESYTD(Orders[Order Date]))
+
+YTD Revenue (Last Year) = 
+CALCULATE(
+    [YTD Revenue],
+    SAMEPERIODLASTYEAR(
+        Orders[Order Date].[Date])
+)
+
+YTD Revenue Target = [YTD Revenue (Last Year)] * 1.2
+
+YTD Target Diff % = 
+([YTD Revenue] - [YTD Revenue (Last Year)]) / [YTD Revenue (Last Year)]
+
+KPI Upper Limit = [YTD Revenue] + 150000
+
+Cumulative Revenue = 
+VAR MaxDate = 
+MAX(
+    'Orders'[Order Date]
+)
+VAR Result = 
+CALCULATE(
+    [Total Revenue],
+    FILTER(
+        ALL(
+            Orders[Order Date]
+        ),
+    Orders[Order Date] <= MaxDate
+    )
+)
+
+RETURN
+    Result
+
